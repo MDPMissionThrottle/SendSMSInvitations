@@ -5,7 +5,7 @@ This plugin allows Limesurvey users to send surveys via SMS text message.  To ge
 From this page, choose your survey.   
 <Image 2>  
 
-### Adding participant attributes  
+## Adding participant attributes  
 The TextMenu plugin requires a special attribute in Limesurvey in order to send text messages. This attribute is where we will enter participants’ phone numbers.  
 
 Step 1: Click on “Survey participants” in the side bar or in the top bar.  
