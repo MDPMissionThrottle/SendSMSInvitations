@@ -1,6 +1,6 @@
 # SendSMSInvitations
-This plugin allows Limesurvey users to send surveys via SMS text message.  To get started, click the “Surveys” button in the top navigation bar or the “List surveys” button in the main center menu.\s\s
-<Image 1>\s\s
+This plugin allows Limesurvey users to send surveys via SMS text message.  To get started, click the “Surveys” button in the top navigation bar or the “List surveys” button in the main center menu.  
+<Image 1>  
 
 From this page, choose your survey. 
 <Image 2>
