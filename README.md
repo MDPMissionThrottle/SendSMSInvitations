@@ -61,7 +61,7 @@ Step 1: Navigate to the ```Survey participants``` screen.
 Step 2: Click on the ```Create``` button on the top. In the drop-down menu, click on Import participants from: “CSV file”.    
 <Image 16>   
 
-Step 3: Click the ```Choose File``` button to choose a CSV file to upload. (Make sure that the requirements listed at the bottom of the page are met before uploading. **Phone numbers need to begin with a +, the country code, followed by the number with no symbols or spaces.)**   
+Step 3: Click the ```Choose File``` button to choose a CSV file to upload. (Make sure that the requirements listed at the bottom of the page are met before uploading. **Phone numbers need to begin with a +, the country code, followed by the number with no symbols or spaces).**   
 <Image 17>   
 
 Step 4: Click the ```Upload``` button at the bottom of the page.   
