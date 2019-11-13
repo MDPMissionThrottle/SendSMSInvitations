@@ -1,11 +1,16 @@
-# Send SMS Invitations
+# Send SMS Invitations  
+This plugin allows Limesurvey users to send surveys via SMS text message.
 
 ## Table of Contents  
 <ul>
-  <li><a href="#addPartAttri">Adding Participant Attributes</a></li>
+  <li><a href="#addPartAttri">Adding participant attributes</a></li>
+  <li><a href="#addPartManually">Adding participants manually</a></li>
+  <li><a href="#addPartCSV">Adding participants via CSV</a></li>
+  <li><a href="#sendSurvey">Sending out surveys</a></li>
+  <li><a href="#troubleshooting">Troubleshooting</a></li>
 </ul>
 
-This plugin allows Limesurvey users to send surveys via SMS text message.  To get started, click the ```Surveys``` button in the top navigation bar or the ```List surveys``` button in the main center menu.  
+To get started, click the ```Surveys``` button in the top navigation bar or the ```List surveys``` button in the main center menu.  
 ![Finding list survey on the main menu](DocumentationAssets/Image1.png)  
 
 From this page, choose your survey.   
@@ -35,7 +40,7 @@ Step 6: Under “Field caption”, type in “Phone Number”. Click the ```Save
 Congratulations! You have successfully set up the required attribute to be able to send surveys via SMS text message. You can see this phone number attribute under ```Survey Participants```.    
 ![View new field in the participants table](DocumentationAssets/Image9.png)   
 
-## Adding participants manually   
+<h2 id="addPartManually">Adding participants manually</h2> 
 There are 2 ways to add participants: manually or via a CSV file. We’ll go over adding participants manually first.    
 
 Step 1: Navigate to the ```Survey participants``` screen.   
@@ -58,7 +63,7 @@ Step 6: As a final step, we need to generate tokens so that Limesurvey can ident
 
 Congratulations! You have just added your first participant manually.    
 
-## Adding participants via CSV   
+<h2 id="addPartCSV">Adding participants via CSV</h2>   
 If you want to avoid adding participants one-by-one, you can upload a CSV with participant information instead.    
 
 Step 1: Navigate to the ```Survey participants``` screen.   
@@ -78,7 +83,7 @@ Step 5: As a final step, we need to generate tokens so that Limesurvey can ident
 
 Congratulations! You have just added participants via a CSV file.    
 
-## Sending out surveys   
+<h2 id="sendSurvey">Sending out surveys</h2>   
 Now we can finally send out surveys via text message!    
 
 Step 1: Click on the ```Send text invitations``` in the side navigation bar.    
@@ -96,7 +101,7 @@ Step 4: Once you are satisfied with your outgoing text message, click on the ```
 Congratulations! You have now sent your survey via text message.   
 ![Success message once text invitations have been sent.](DocumentationAssets/Image25.png)   
 
-## Troubleshooting   
+<h2 id="troubleshooting">Troubleshooting</h2>   
 If any errors occur, complete the following steps:    
 
 Step 1: Check to make sure all phone numbers of participants begin with a +, followed by the country code, followed by the rest of the phone number with no other symbols or spaces.    
