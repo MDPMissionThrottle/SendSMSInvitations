@@ -3,52 +3,52 @@ This plugin allows Limesurvey users to send surveys via SMS text message.  To ge
 ![Finding list survey on the main menu](DocumentationAssets/Image1.png)  
 
 From this page, choose your survey.   
-<Image 2>  
+![Choose your survey](DocumentationAssets/Image2.png)   
 
 ## Adding participant attributes  
 The TextMenu plugin requires a special attribute in Limesurvey in order to send text messages. This attribute is where we will enter participants’ phone numbers.  
 
 Step 1: Click on ```Survey participants``` in the side bar or in the top bar.  
-<Image 3>  
+![Navigating to survey participants](DocumentationAssets/Image3.png)   
 
 Step 2: Click on the ```Manage attributes``` button at the top.   
-<Image 4>  
+![Navigating to manage attributes](DocumentationAssets/Image4.png)   
 
 Step 3: Under “Add/delete survey participant attributes,” add 1 attribute by verifying the “Number of attribute fields to add” is 1 and by clicking on the ```Add fields``` button.   
-<Image 5>   
+![Adding attributes to participants](DocumentationAssets/Image5.png)    
 
 Step 4: You will see a notification that “1 field(s) were successfully added,” and you will see a field “attribute_1” in the list of attribute fields. Under “Field description, type in “phone_number”.    
-<Image 6>   
+![Success message for adding attributes.](DocumentationAssets/Image6.png)    
 
 Step 5: Click the toggle button under “Mandatory” so that it reads “On”.   
-<Image 7>   
+![How to make phone number field mandatory](DocumentationAssets/Image7.png)   
 
 Step 6: Under “Field caption”, type in “Phone Number”. Click the ```Save``` button when complete.   
-<Image 8>   
+![Add field caption to attribute](DocumentationAssets/Image8.png)   
 
 Congratulations! You have successfully set up the required attribute to be able to send surveys via SMS text message. You can see this phone number attribute under ```Survey Participants```.    
-<Image 9>   
+![View new field in the participants table](DocumentationAssets/Image9.png)   
 
 ## Adding participants manually   
 There are 2 ways to add participants: manually or via a CSV file. We’ll go over adding participants manually first.    
 
 Step 1: Navigate to the ```Survey participants``` screen.   
-<Image 10>   
+![Navigate to survey participants](DocumentationAssets/Image10.png)   
 
 Step 2: Click on ```Create``` on the top. Click on ```Add participant``` in the drop-down menu.   
-<Image 11>   
+![How to add participants.](DocumentationAssets/Image11.png)   
 
 Step 3: On the “Add survey participant” screen, fill in the relevant fields. Once complete, click on the ```Additional attributes``` tab at the top.   
-<Image 12>   
+![Navigating to additional attributes.](DocumentationAssets/Image12.png)   
 
 Step 4: In the “phone_number” field, enter in your participant’s phone number. **It must begin with a +, followed by the country code, followed by the phone number, with no symbols or spaces. (The country code for the US is 1).** Once complete, click the green ```Save``` button in the top right.    
-<Image 13>   
+![Entering participant phone number](DocumentationAssets/Image13.png)   
 
 Step 5: After you see the Success message, navigate back to the ```Survey participants``` page.   
-<Image 14>   
+![Success message after adding participants.](DocumentationAssets/Image14.png)   
 
 Step 6: As a final step, we need to generate tokens so that Limesurvey can identify each participant. From the ```Survey participants``` page, click the ```Generate tokens``` button in the top. Click ```Yes``` when prompted to create tokens.    
-<Image 15>   
+![How to generate tokens for participants.](DocumentationAssets/Image15.png)   
 
 Congratulations! You have just added your first participant manually.    
 
@@ -56,19 +56,19 @@ Congratulations! You have just added your first participant manually.
 If you want to avoid adding participants one-by-one, you can upload a CSV with participant information instead.    
 
 Step 1: Navigate to the ```Survey participants``` screen.   
-<Image 16>   
+![Navigating to survey participants screen.](DocumentationAssets/Image16.png)   
 
 Step 2: Click on the ```Create``` button on the top. In the drop-down menu, click on Import participants from: “CSV file”.    
-<Image 17>   
+![Importing via csv file.](DocumentationAssets/Image17.png)   
 
 Step 3: Click the ```Choose File``` button to choose a CSV file to upload. (Make sure that the requirements listed at the bottom of the page are met before uploading. **Phone numbers need to begin with a +, the country code, followed by the number with no symbols or spaces).**   
-<Image 18>   
+![Choosing csv file to be imported.](DocumentationAssets/Image18.png)   
 
 Step 4: Click the ```Upload``` button at the bottom of the page.   
-<Image 19>   
+![How to upload the csv file once chosen.](DocumentationAssets/Image19.png)   
 
 Step 5: As a final step, we need to generate tokens so that Limesurvey can identify each participant. From the ```Survey participants``` page, click the ```Generate tokens``` button in the top. Click ```Yes``` when prompted to create tokens.    
-<Image 20>   
+![Generating tokens for the uploaded participants.](DocumentationAssets/Image20.png)   
 
 Congratulations! You have just added participants via a CSV file.    
 
@@ -76,19 +76,19 @@ Congratulations! You have just added participants via a CSV file.
 Now we can finally send out surveys via text message!    
 
 Step 1: Click on the ```Send text invitations``` in the side navigation bar.    
-<Image 21>   
+![Navigating to send text invitations.](DocumentationAssets/Image21.png)   
 
 Step 2: On the “Send text invitations” page, you should see the participants you have created or uploaded. Check the participants you would like to send surveys to via text message.    
-<Image 22>   
+![Selecting participants to receive text invitations.](DocumentationAssets/Image22.png)   
 
 Step 3: You can now customize the message that participants will see. Remember, this is the text message that your participants will receive to complete your survey. **Do not alter any text inside the curly brackets { }.**    
-<Image 23>   
+![How to alter text of message being sent to participants.](DocumentationAssets/Image23.png)   
 
 Step 4: Once you are satisfied with your outgoing text message, click on the ```Send via Text``` button to send your survey to your selected participants via text message.    
-<Image 24>   
+![Button to send text invitations to selected participants.](DocumentationAssets/Image24.png)   
 
 Congratulations! You have now sent your survey via text message.   
-<Image 25>   
+![Success message once text invitations have been sent.](DocumentationAssets/Image25.png)   
 
 ## Troubleshooting   
 If any errors occur, complete the following steps:    
@@ -96,6 +96,6 @@ If any errors occur, complete the following steps:
 Step 1: Check to make sure all phone numbers of participants begin with a +, followed by the country code, followed by the rest of the phone number with no other symbols or spaces.    
 
 Step 2: Check in Configuration and make sure that the attribute number is correct.    
-<Image 26>   
-<Image 27>   
-<Image 28>   
+![Navigation to plugin manager.](DocumentationAssets/Image26.png)   
+![Navigating to configuration settings in the plugin manager.](DocumentationAssets/Image27.png)   
+![Inputing attribute number that corresponds to the phone number field.](DocumentationAssets/Image28.png)   
