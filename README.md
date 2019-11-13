@@ -17,7 +17,7 @@ From this page, choose your survey.
 ![Choose your survey](DocumentationAssets/Image2.png)   
 
 <h2 id="addPartAttri">Adding participant attributes</h2> 
-The TextMenu plugin requires a special attribute in Limesurvey in order to send text messages. This attribute is where we will enter participants’ phone numbers.  
+The TextMenu plugin requires a special attribute in Limesurvey in order to send text messages. This attribute is where we will enter participants’ phone numbers.    
 
 Step 1: Click on ```Survey participants``` in the side bar or in the top bar.  
 ![Navigating to survey participants](DocumentationAssets/Image3.png)   
@@ -41,7 +41,7 @@ Congratulations! You have successfully set up the required attribute to be able 
 ![View new field in the participants table](DocumentationAssets/Image9.png)   
 
 <h2 id="addPartManually">Adding participants manually</h2> 
-There are 2 ways to add participants: manually or via a CSV file. We’ll go over adding participants manually first.    
+There are 2 ways to add participants: manually or via a CSV file. We’ll go over adding participants manually first.      
 
 Step 1: Navigate to the ```Survey participants``` screen.   
 ![Navigate to survey participants](DocumentationAssets/Image10.png)   
@@ -64,7 +64,7 @@ Step 6: As a final step, we need to generate tokens so that Limesurvey can ident
 Congratulations! You have just added your first participant manually.    
 
 <h2 id="addPartCSV">Adding participants via CSV</h2>   
-If you want to avoid adding participants one-by-one, you can upload a CSV with participant information instead.    
+If you want to avoid adding participants one-by-one, you can upload a CSV with participant information instead.      
 
 Step 1: Navigate to the ```Survey participants``` screen.   
 ![Navigating to survey participants screen.](DocumentationAssets/Image16.png)   
@@ -84,7 +84,7 @@ Step 5: As a final step, we need to generate tokens so that Limesurvey can ident
 Congratulations! You have just added participants via a CSV file.    
 
 <h2 id="sendSurvey">Sending out surveys</h2>   
-Now we can finally send out surveys via text message!    
+Now we can finally send out surveys via text message!      
 
 Step 1: Click on the ```Send text invitations``` in the side navigation bar.    
 ![Navigating to send text invitations.](DocumentationAssets/Image21.png)   
@@ -102,7 +102,7 @@ Congratulations! You have now sent your survey via text message.
 ![Success message once text invitations have been sent.](DocumentationAssets/Image25.png)   
 
 <h2 id="troubleshooting">Troubleshooting</h2>   
-If any errors occur, complete the following steps:    
+If any errors occur, complete the following steps:      
 
 Step 1: Check to make sure all phone numbers of participants begin with a +, followed by the country code, followed by the rest of the phone number with no other symbols or spaces.    
 
