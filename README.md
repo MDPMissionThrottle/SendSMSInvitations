@@ -3,6 +3,8 @@ This plugin allows Limesurvey users to send surveys via SMS text message.
 
 ## Table of Contents  
 <ul>
+  <li><a href="#pluginConfig">Plugin Activation</a></li>
+  <li><a href="#getStarted">Go to survey</a></li>
   <li><a href="#addPartAttri">Adding participant attributes</a></li>
   <li><a href="#addPartManually">Adding participants manually</a></li>
   <li><a href="#addPartCSV">Adding participants via CSV</a></li>
@@ -10,6 +12,28 @@ This plugin allows Limesurvey users to send surveys via SMS text message.
   <li><a href="#troubleshooting">Troubleshooting</a></li>
 </ul>
 
+<h2 id="#pluginConfig">Plugin Activation</h2>
+Plugin Activation
+Now we need to activate the plugin. 
+
+Step 1: From the home screen, click on the `Configuration` button in the top navigation bar. 
+![Configuration Home Page](DocumentationAssets/active-1.png)
+
+Step 2: Under `Settings`, click on `Plugin manager`. 
+![Plugin manager](DocumentationAssets/active-2.png)
+
+Step 3: The plugin is called TextMenu. After you find it in the list, click on `Configure`. 
+![Configuration](DocumentationAssets/active-3.png)
+
+Step 4: On the Settings screen, you will see 3 fields: Twilio Account SID, Twilio Authentication Token, and Twilio Phone Number. Put in the 3 corresponding numbers you copied earlier. For the Server URL field, copy the URL from your address bar from the beginning up to and including `/index.php`. Click “Save and Close”. 
+![Settings screen](DocumentationAssets/active-4.png)
+
+Step 5: Upon returning to the Plugin Manager screen, locate the TextMenu plugin again and click “Activate”. 
+![Activate](DocumentationAssets/active-5.png)
+
+Congratulations! The plugin is now activated. 
+
+<h2 id="getStarted">Go to survey</h2>
 To get started, click the ```Surveys``` button in the top navigation bar or the ```List surveys``` button in the main center menu.  
 ![Finding list survey on the main menu](DocumentationAssets/Image1.png)  
 
