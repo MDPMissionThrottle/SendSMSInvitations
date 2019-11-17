@@ -34,7 +34,7 @@ Step 5: Upon returning to the Plugin Manager screen, locate the TextMenu plugin 
 Congratulations! The plugin is now activated. 
 
 <h2 id="getStarted">Go to survey</h2>
-To get started, click the `Surveys` button in the top navigation bar or the `List surveys` button in the main center menu.  
+To get started, click the ```Surveys``` button in the top navigation bar or the ```List surveys``` button in the main center menu.  
 ![Finding list survey on the main menu](DocumentationAssets/Image1.png)  
 
 From this page, choose your survey.   
