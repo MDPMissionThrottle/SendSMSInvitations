@@ -12,8 +12,7 @@ This plugin allows Limesurvey users to send surveys via SMS text message.
   <li><a href="#troubleshooting">Troubleshooting</a></li>
 </ul>
 
-<h2 id="#pluginConfig">Plugin Activation</h2>
-Plugin Activation
+<h2 id="#pluginConfig">Plugin Activation</h2>  
 Now we need to activate the plugin. 
 
 Step 1: From the home screen, click on the `Configuration` button in the top navigation bar. 
