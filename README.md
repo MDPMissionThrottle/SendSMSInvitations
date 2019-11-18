@@ -29,19 +29,19 @@ You will need to copy 3 numbers from Twilio into Limesurvey, so you might want t
 
 Step 1: Make a Twilio account. Visit https://www.twilio.com/ to begin this process. 
 
-Step 2: After creating your Twilio account, click on the “Get A Trial Number” button. If you don’t like the number generated, you can click “Search for a different number”. Otherwise, click “Choose this number”. 
+Step 2: After creating your Twilio account, click on the ```Get A Trial Number``` button. If you don’t like the number generated, you can click ```Search for a different number```. Otherwise, click ```Choose this number```. 
 
 ![Twilio Project Dashboard](DocumentationAssets/install-1.png)
 
-Step 3: Copy the number that was generated, save it somewhere, and click “Done”.
+Step 3: Copy the number that was generated, save it somewhere, and click ```Done```.
 
 ![Copy twilio number](DocumentationAssets/install-2.png)
 
-Step 4: From the “Twilio project dashboard” screen, navigate to the field that is called “ACCOUNT SID”. Click on the Copy icon on the right side of the field and save this in your note. 
+Step 4: From the ```Twilio project dashboard``` screen, navigate to the field that is called ```ACCOUNT SID```. Click on the ```Copy``` icon on the right side of the field and save this in your note. 
 
 ![Account SID](DocumentationAssets/install-3.png)
 
-Step 5: Navigate to the field that is called “AUTH TOKEN”. Click on the Copy icon on the right side of the field and save this in your note. 
+Step 5: Navigate to the field that is called ```AUTH TOKEN```. Click on the ```Copy``` icon on the right side of the field and save this in your note. 
 
 ![Auth token](DocumentationAssets/install-4.png)
 
