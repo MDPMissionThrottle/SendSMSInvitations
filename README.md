@@ -1,3 +1,4 @@
+
 # Send SMS Invitations  
 This plugin allows Limesurvey users to send surveys via SMS text message.
 
@@ -13,7 +14,8 @@ This plugin allows Limesurvey users to send surveys via SMS text message.
   <li><a href="#troubleshooting">Troubleshooting</a></li>
 </ul>
 <h2 id="#setup">Setup</h2>
-This plugin allows you to send surveys via text message. In order to do this, you must download the plugin and put it in the correct directory, create a Twilio account, and activate the TextMenu plugin. Follow the following instructions to do so. 
+This plugin allows you to send surveys via text message. In order to do this, you must download the plugin and put it in the correct directory, create a Twilio account, and activate the TextMenu plugin. Follow the following instructions to do so.
+
 
 **Download the plugin**<br>
 
@@ -48,16 +50,16 @@ This completes the section on Twilio! If there are other settings you would like
 <h2 id="#pluginConfig">Plugin Activation</h2>  
 Now we need to activate the plugin. 
 
-Step 1: From the home screen, click on the `Configuration` button in the top navigation bar. 
+Step 1: From the home screen, click on the ```Configuration``` button in the top navigation bar. 
 ![Configuration Home Page](DocumentationAssets/active-1.png)
 
 Step 2: Under `Settings`, click on `Plugin manager`. 
 ![Plugin manager](DocumentationAssets/active-2.png)
 
-Step 3: The plugin is called TextMenu. After you find it in the list, click on `Configure`. 
+Step 3: The plugin is called TextMenu. After you find it in the list, click on ```Configure```. 
 ![Configuration](DocumentationAssets/active-3.png)
 
-Step 4: On the Settings screen, you will see 3 fields: Twilio Account SID, Twilio Authentication Token, and Twilio Phone Number. Put in the 3 corresponding numbers you copied earlier. For the Server URL field, copy the URL from your address bar from the beginning up to and including `/index.php`. Click “Save and Close”. 
+Step 4: On the Settings screen, you will see 3 fields: Twilio Account SID, Twilio Authentication Token, and Twilio Phone Number. Put in the 3 corresponding numbers you copied earlier. For the Server URL field, copy the URL from your address bar from the beginning up to and including ```/index.php```. Click “Save and Close”. 
 ![Settings screen](DocumentationAssets/active-4.png)
 
 Step 5: Upon returning to the Plugin Manager screen, locate the TextMenu plugin again and click “Activate”. 
@@ -66,7 +68,7 @@ Step 5: Upon returning to the Plugin Manager screen, locate the TextMenu plugin 
 Congratulations! The plugin is now activated. 
 
 <h2 id="getStarted">Go to survey</h2>
-To get started, click the `Surveys` button in the top navigation bar or the `List surveys` button in the main center menu.  
+To get started, click the ```Surveys``` button in the top navigation bar or the ```List surveys``` button in the main center menu.  
 ![Finding list survey on the main menu.](DocumentationAssets/Image1.png)  
 
 From this page, choose your survey.   
