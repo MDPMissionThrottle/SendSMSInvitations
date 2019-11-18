@@ -15,12 +15,14 @@ This plugin allows Limesurvey users to send surveys via SMS text message.
 <h2 id="#setup">Setup</h2>
 This plugin allows you to send surveys via text message. In order to do this, you must download the plugin and put it in the correct directory, create a Twilio account, and activate the TextMenu plugin. Follow the following instructions to do so. 
 
-<b>Download the plugin</b>
+**Download the plugin**<br>
+
 The standard procedure is to download the .zip file of the plugin (or git clone the repository) and extract it into the plugins folder of your LimeSurvey installation. Once done, it should be displayed in the Plugin Manager panel. Limesurvey’s documentation for this process can be found here: https://manual.limesurvey.org/Plugin_manager 
 
 First, download the file. Extract it into the plugins folder of your LimeSurvey installation. Once done, it should be displayed in the Plugin Manager panel.
 
-<b>Twilio Setup<b>
+**Twilio Setup**
+
 You will need to copy 3 numbers from Twilio into Limesurvey, so you might want to have a blank document or notepad open. 
 
 Step 1: Make a Twilio account. Visit https://www.twilio.com/ to begin this process. 
