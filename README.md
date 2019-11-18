@@ -3,6 +3,7 @@ This plugin allows Limesurvey users to send surveys via SMS text message.
 
 ## Table of Contents  
 <ul>
+  <li><a href="#setup">Setup</a></li>
   <li><a href="#pluginConfig">Plugin Activation</a></li>
   <li><a href="#getStarted">Go to survey</a></li>
   <li><a href="#addPartAttri">Adding participant attributes</a></li>
@@ -11,6 +12,36 @@ This plugin allows Limesurvey users to send surveys via SMS text message.
   <li><a href="#sendSurvey">Sending out surveys</a></li>
   <li><a href="#troubleshooting">Troubleshooting</a></li>
 </ul>
+<h2 id="#setup">Setup</h2>
+This plugin allows you to send surveys via text message. In order to do this, you must download the plugin and put it in the correct directory, create a Twilio account, and activate the TextMenu plugin. Follow the following instructions to do so. 
+
+<b>Download the plugin</b>
+The standard procedure is to download the .zip file of the plugin (or git clone the repository) and extract it into the plugins folder of your LimeSurvey installation. Once done, it should be displayed in the Plugin Manager panel. Limesurvey’s documentation for this process can be found here: https://manual.limesurvey.org/Plugin_manager 
+
+First, download the file. Extract it into the plugins folder of your LimeSurvey installation. Once done, it should be displayed in the Plugin Manager panel.
+
+<b>Twilio Setup<b>
+You will need to copy 3 numbers from Twilio into Limesurvey, so you might want to have a blank document or notepad open. 
+
+Step 1: Make a Twilio account. Visit https://www.twilio.com/ to begin this process. 
+
+Step 2: After creating your Twilio account, click on the “Get A Trial Number” button. If you don’t like the number generated, you can click “Search for a different number”. Otherwise, click “Choose this number”. 
+
+![Twilio Project Dashboard](DocumentationAssets/install-1.png)
+
+Step 3: Copy the number that was generated, save it somewhere, and click “Done”.
+
+![Copy twilio number](DocumentationAssets/install-2.png)
+
+Step 4: From the “Twilio project dashboard” screen, navigate to the field that is called “ACCOUNT SID”. Click on the Copy icon on the right side of the field and save this in your note. 
+
+![Account SID](DocumentationAssets/install-3.png)
+
+Step 5: Navigate to the field that is called “AUTH TOKEN”. Click on the Copy icon on the right side of the field and save this in your note. 
+
+![Auth token](DocumentationAssets/install-4.png)
+
+This completes the section on Twilio! If there are other settings you would like to change on Twilio, refer to Twilio’s documentation to do so. Keep those 3 numbers you saved for the next section. 
 
 <h2 id="#pluginConfig">Plugin Activation</h2>
 Plugin Activation
