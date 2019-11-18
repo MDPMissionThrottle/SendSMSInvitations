@@ -43,8 +43,7 @@ Step 5: Navigate to the field that is called “AUTH TOKEN”. Click on the Copy
 
 This completes the section on Twilio! If there are other settings you would like to change on Twilio, refer to Twilio’s documentation to do so. Keep those 3 numbers you saved for the next section. 
 
-<h2 id="#pluginConfig">Plugin Activation</h2>
-Plugin Activation
+<h2 id="#pluginConfig">Plugin Activation</h2>  
 Now we need to activate the plugin. 
 
 Step 1: From the home screen, click on the `Configuration` button in the top navigation bar. 
@@ -65,8 +64,8 @@ Step 5: Upon returning to the Plugin Manager screen, locate the TextMenu plugin 
 Congratulations! The plugin is now activated. 
 
 <h2 id="getStarted">Go to survey</h2>
-To get started, click the ```Surveys``` button in the top navigation bar or the ```List surveys``` button in the main center menu.  
-![Finding list survey on the main menu](DocumentationAssets/Image1.png)  
+To get started, click the `Surveys` button in the top navigation bar or the `List surveys` button in the main center menu.  
+![Finding list survey on the main menu.](DocumentationAssets/Image1.png)  
 
 From this page, choose your survey.   
 ![Choose your survey](DocumentationAssets/Image2.png)   
