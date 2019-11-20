@@ -174,6 +174,6 @@ Step 2: Check in Configuration and make sure that the attribute number is correc
 
 <h2 id="anon-responses">Anonymizing Responses</h2>  
 
-In order to anonymize survey responses, you must adjust the settings upon survey activation.   You may NOT anonymize survey responses after the survey activation.  After clicking the ```Activate this survey``` button the following screen pops up:
+In order to anonymize survey responses, you must adjust the settings upon survey activation.   You may NOT anonymize survey responses after the survey activation.  After clicking the ```Activate this survey``` button the following screen pops up:  
 ![Anonymizing responses.](DocumentationAssets/anon-response.png)
 In order to anonymize the responses for the survey, you must change the status of ```Anonymized responses?``` to **Yes**.
