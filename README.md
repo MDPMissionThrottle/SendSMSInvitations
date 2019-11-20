@@ -13,6 +13,7 @@ This plugin allows Limesurvey users to send surveys via SMS text message.
   <li><a href="#addPartCSV">Adding participants via CSV</a></li>
   <li><a href="#sendSurvey">Sending out surveys</a></li>
   <li><a href="#troubleshooting">Troubleshooting</a></li>
+  <li><a href="#anon-responses">Anonymizing Responses</a></li>
 </ul>
 
 <h2 id="#setup">Setup</h2>
@@ -169,4 +170,9 @@ Step 1: Check to make sure all phone numbers of participants begin with a +, fol
 Step 2: Check in Configuration and make sure that the attribute number is correct.    
 ![Navigation to plugin manager.](DocumentationAssets/Image26.png)   
 ![Navigating to configuration settings in the plugin manager.](DocumentationAssets/Image27.png)   
-![Inputing attribute number that corresponds to the phone number field.](DocumentationAssets/Image28.png)   
+![Inputing attribute number that corresponds to the phone number field.](DocumentationAssets/Image28.png)  
+
+<h2 id="anon-responses">Anonymizing Responses</h2>  
+In order to anonymize survey responses, you must adjust the settings upon survey activation.   You may NOT anonymize survey responses after the survey activation.  After clicking the ```Activate this survey``` button the following screen pops up:
+
+In order to anonymize the responses for the survey, you must change the status of ```Anonymized responses?``` to **Yes**.
