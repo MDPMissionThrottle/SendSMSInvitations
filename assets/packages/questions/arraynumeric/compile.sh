@@ -1,1 +1,0 @@
-uglifyjs --compress --  scripts/array-totalsum.js > scripts/array-totalsum.min.js
