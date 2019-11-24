@@ -33,7 +33,7 @@ We recommend the following setup
  - mysql 5.5.50
 
 ## Manual
-for more information please refer to our [homepage](http://www.limesurvey.org), or have a look at the [manual](http://manual.limesurvey.org) 
+for more information please refer to our [homepage](http://www.limesurvey.org), or have a look at the Limesurvey [manual](http://manual.limesurvey.org) 
 
 ## Licence
 LimeSurvey software is licenced under the [GPL 2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
@@ -111,7 +111,7 @@ You will need to copy 3 numbers from Twilio into Limesurvey, so you might want t
 
 This completes the section on Twilio! If there are other settings you would like to change on Twilio, refer to Twilio’s documentation to do so. Keep those 3 numbers you saved for the next section. 
 
-<h2 id="#pluginConfig">Plugin Activation</h2>  
+<h2 id="pluginConfig">Plugin Activation</h2>  
 Now we need to activate the plugin. 
 
 **Step 1:** From the home screen, click on the ```Configuration``` button in the top navigation bar. 
