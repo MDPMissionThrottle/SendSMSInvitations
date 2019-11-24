@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ![LimeSurvey Logo](https://www.limesurvey.org/images/logos/logo_main.png)
 # Sophisticated online survey software
 [![Build Status](https://travis-ci.org/LimeSurvey/LimeSurvey.svg?branch=master)](https://travis-ci.org/LimeSurvey/LimeSurvey/)
@@ -65,8 +64,6 @@ We are using TravisCI to run automated tests before release:
 
 [![](https://raw.githubusercontent.com/LimeSurvey/LimeSurvey/master/docs/contributions/travisci-logo.png "Checkout TravisCI")](https://travis-ci.org/)
 
-=======
-
 
 # Send SMS Invitations  
 This plugin allows Limesurvey users to send surveys via SMS text message.
@@ -103,36 +100,19 @@ mv current-TextMenu limesurvey-instance-directory/plugins/
 **Verify**
 Once the plugin has been successfully exported to the plugins directory, verify that the plugin is displayed in the Plugin Manager panel by:
 
-#Step 1#: From the home screen, click on the ```Configuration``` button in the top navigation bar. 
+**Step 1**: From the home screen, click on the ```Configuration``` button in the top navigation bar. 
 ![Configuration Home Page](DocumentationAssets/active-1.png)
 
-#Step 2#: Under `Settings`, click on `Plugin manager`. 
+**Step 2**: Under `Settings`, click on `Plugin manager`. 
 ![Plugin manager](DocumentationAssets/active-2.png)
 
-#Step 3#: Make sure that the plugin called TextMenu exists in this page. 
+**Step 3**: Make sure that the plugin called TextMenu exists in this page. 
 ![Configuration](DocumentationAssets/active-3.png)
 
 **Twilio Setup**
 
 You will need to copy 3 numbers from Twilio into Limesurvey, so you might want to have a blank document or notepad open. 
 
-<<<<<<< HEAD
-#Step 1#: Make a Twilio account. Visit https://www.twilio.com/ to begin this process. 
-
-#Step 2#: After creating your Twilio account, click on the ```Get A Trial Number``` button. If you don’t like the number generated, you can click ```Search for a different number```. Otherwise, click ```Choose this number```. 
-
-![Twilio Project Dashboard](DocumentationAssets/install-1.png)
-
-#Step 3#: Copy the number that was generated, save it somewhere, and click ```Done```.
-
-![Copy twilio number](DocumentationAssets/install-2.png)
-
-#Step 4#: From the ```Twilio project dashboard``` screen, navigate to the field that is called ```ACCOUNT SID```. Click on the ```Copy``` icon on the right side of the field and save this in your note. 
-
-![Account SID](DocumentationAssets/install-3.png)
-
-#Step 5#: Navigate to the field that is called ```AUTH TOKEN```. Click on the ```Copy``` icon on the right side of the field and save this in your note. 
-=======
 **Step 1:** Make a Twilio account. Visit https://www.twilio.com/ to begin this process. 
 
 **Step 2:** After creating your Twilio account, click on the ```Get A Trial Number``` button. If you don’t like the number generated, you can click ```Search for a different number```. Otherwise, click ```Choose this number```. 
