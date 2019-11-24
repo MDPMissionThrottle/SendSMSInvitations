@@ -8,19 +8,8 @@ Limesurvey is the number one open-source survey software.
 
 Advanced features like branching and multiple question types make it a valuable partner for survey-creation.
 
-### Demo
-
-See our [Administration Demo](http://demo.limesurvey.org/index.php?r=admin/authentication/sa/login).
-The credentials are prefilled, just click **Log in**
-
-Or try taking one of our [test surveys](https://survey.limesurvey.org/index.php?sid=78184&lang=en)
-
-
 ## How to install
 
-### Release
-We try to publish a release every other day.
-We recommend using those.
 
 ### Repository
 You may want to use the plain repository, which is also possible.
@@ -50,20 +39,6 @@ for more information please refer to our [homepage](http://www.limesurvey.org), 
 LimeSurvey software is licenced under the [GPL 2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
 
 Pictures and the LimeSurvey Logo are registered trademarks of LimeSurvey GmbH, Hamburg, Germany.
-
-## Tools used
-We are using BrowserStack to run manual tests on different browsers and devices
-
-[![](https://raw.githubusercontent.com/LimeSurvey/LimeSurvey/master/docs/contributions/browserstack-logo.png "Checkout BrowserStack")](https://www.browserstack.com/)
-
-We are using Scrutinizer to static check our code
-
-[![](https://raw.githubusercontent.com/LimeSurvey/LimeSurvey/master/docs/contributions/scrutinizer-logo.png "Checkout scrutinizer")](https://scrutinizer-ci.com/)
-
-We are using TravisCI to run automated tests before release:
-
-[![](https://raw.githubusercontent.com/LimeSurvey/LimeSurvey/master/docs/contributions/travisci-logo.png "Checkout TravisCI")](https://travis-ci.org/)
-
 
 # Send SMS Invitations  
 This plugin allows Limesurvey users to send surveys via SMS text message.
