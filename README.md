@@ -58,16 +58,24 @@ This plugin allows Limesurvey users to send surveys via SMS text message.
 
 <h2 id="#setup">Setup</h2>
 
-This plugin allows you to send surveys via text message. In order to do this, you must download the plugin and put it in the correct directory, create a Twilio account, and activate the TextMenu plugin. Follow the following instructions to do so.
+This plugin allows you to send surveys via text message. In order to do this, you must download the plugin and put it in the correct directory, create a Twilio account, and activate the TextMenu plugin. Follow the following instructions to do so. 
 
 **Download plugin via git clone**
 
-Click on the clone or download button on the public github repository (this page) and git clone into a local directory in your machine by typing 
-git clone github-repo-link.
+It is highly recommended to clone the plugin directly into the <limesurvey-instance-directory>/plugins directory.
+
+Click on the clone or download button on the public github repository (this page) and copy the github-repo-link shown under ```Clone with HTTPS``` and git clone into a directory of choice by typing 
+```git clone github-repo-link```
+and the plugin folder SendSMSInvitations should be shown in the directory
+
+If not cloned directly into the <limesurvey-instance-directory>/plugins/ subdirectory, this plugin folder needs to be moved to the plugins subdirectory of your Limesurvey server. This can be done via linux:
+mv SendSMSInvitations <limesurvey-instance-directory>/plugins/
 
 **Download the plugin via zip**
 
-You can also download the .zip file of the plugin from the github repo and extract it into the plugins folder of your LimeSurvey installation. Once done, it should be displayed in the Plugin Manager panel. Limesurvey’s documentation for this process can be found here: https://manual.limesurvey.org/Plugin_manager 
+If you have cloned the repository, please feel free to skip this part. 
+
+You can also download the .zip file of the plugin from the github repo by clicking ```Clone or download``` and clicking the ```Download ZIP``` button. Afterwards, you can extract the contents of the zip folder into the plugins folder of your LimeSurvey installation.
 
 First, download the file. Extract it into the plugins folder of your LimeSurvey installation. 
 
