@@ -62,7 +62,7 @@ This plugin allows you to send surveys via text message. In order to do this, yo
 
 **Download plugin via git clone**
 
-It is highly recommended to clone the plugin directly into the {limesurvey-instance-directory}/plugins directory.
+It is highly recommended to clone the plugin directly into the {limesurvey-instance-directory}/plugins subdirectory.
 
 Click on the clone or download button on the public github repository (this page) and copy the github-repo-link shown under ```Clone with HTTPS``` and git clone into a directory of choice by typing
 
@@ -82,15 +82,15 @@ You can also download the .zip file of the plugin from the github repo by clicki
 
 First, download the file. Extract it into the plugins folder of your LimeSurvey installation. 
 
-**Move TextMenu plugin to plugins directory**
+**Move TextMenu plugin to plugins subdirectory**
 
-In order for the plugin to work, the ```TextMenu``` subdirectory inside this repository needs to be moved to the plugins directory of the Limesurvey instance. In linux, you could do this by typing
+In order for the plugin to work, the ```TextMenu``` subdirectory inside this repository needs to be moved to the plugins subdirectory of the Limesurvey instance. In linux, you could do this by typing
 
 ```mv TextMenu {limesurvey-instance-directory}/plugins/``` from inside this repository.
 
 **Verify**
 
-Once the plugin has been successfully exported to the plugins directory, verify that the plugin is displayed in the Plugin Manager panel by:
+Once the plugin has been successfully exported to the plugins subdirectory, verify that the plugin is displayed in the Plugin Manager panel by:
 
 **Step 1**: From the home screen, click on the ```Configuration``` button in the top navigation bar. 
 ![Configuration Home Page](DocumentationAssets/active-1.png)
