@@ -85,19 +85,21 @@ This plugin allows Limesurvey users to send surveys via SMS text message.
 
 This plugin allows you to send surveys via text message. In order to do this, you must download the plugin and put it in the correct directory, create a Twilio account, and activate the TextMenu plugin. Follow the following instructions to do so.
 
-**Download the plugin via zip**
-
-The standard procedure is to download the .zip file of the plugin from the github repo and extract it into the plugins folder of your LimeSurvey installation. Once done, it should be displayed in the Plugin Manager panel. Limesurvey’s documentation for this process can be found here: https://manual.limesurvey.org/Plugin_manager 
-
-First, download the file. Extract it into the plugins folder of your LimeSurvey installation. 
-
 **Download plugin via git clone**
 
 Click on the clone or download button on the public github repository (this page) and git clone into a local directory in your machine by typing 
-git clone github-repo-link
+git clone github-repo-link.
 
-In order for the plugin to work, it needs to be in the plugins directory of the Limesurvey instance. In linux, you could do 
-mv current-TextMenu limesurvey-instance-directory/plugins/
+**Download the plugin via zip**
+
+You can also download the .zip file of the plugin from the github repo and extract it into the plugins folder of your LimeSurvey installation. Once done, it should be displayed in the Plugin Manager panel. Limesurvey’s documentation for this process can be found here: https://manual.limesurvey.org/Plugin_manager 
+
+First, download the file. Extract it into the plugins folder of your LimeSurvey installation. 
+
+**Move TextMenu plugin to plugins directory**
+
+In order for the plugin to work, the ```TextMenu``` subdirectory inside this repository needs to be moved to the plugins directory of the Limesurvey instance. In linux, you could do this by typing
+mv TextMenu <limesurvey-instance-directory>/plugins/ from this repository.
 
 **Verify**
 
