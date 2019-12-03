@@ -64,12 +64,15 @@ This plugin allows you to send surveys via text message. In order to do this, yo
 
 It is highly recommended to clone the plugin directly into the {limesurvey-instance-directory}/plugins directory.
 
-Click on the clone or download button on the public github repository (this page) and copy the github-repo-link shown under ```Clone with HTTPS``` and git clone into a directory of choice by typing 
-```git clone github-repo-link```
+Click on the clone or download button on the public github repository (this page) and copy the github-repo-link shown under ```Clone with HTTPS``` and git clone into a directory of choice by typing
+
+```git clone {github-repo-link}```
+
 and the plugin folder SendSMSInvitations should be shown in the directory
 
 If not cloned directly into the {limesurvey-instance-directory}/plugins/ subdirectory, this plugin folder needs to be moved to the plugins subdirectory of your Limesurvey server. This can be done via linux:
-mv SendSMSInvitations {limesurvey-instance-directory}/plugins/
+
+```mv SendSMSInvitations {limesurvey-instance-directory}/plugins/```
 
 **Download the plugin via zip**
 
@@ -82,7 +85,8 @@ First, download the file. Extract it into the plugins folder of your LimeSurvey 
 **Move TextMenu plugin to plugins directory**
 
 In order for the plugin to work, the ```TextMenu``` subdirectory inside this repository needs to be moved to the plugins directory of the Limesurvey instance. In linux, you could do this by typing
-mv TextMenu {limesurvey-instance-directory}/plugins/ from this repository.
+
+```mv TextMenu {limesurvey-instance-directory}/plugins/``` from inside this repository.
 
 **Verify**
 
